@@ -1,2 +1,9 @@
 # Breast_Cancer_Neural_Network
-Artificial Neural Network Predicting Breast Cancer
+# Artificial Neural Network Predicting Breast Cancer
+# Task
+  Can we predict either benign or malignant cancer specimins through an Artificial Neural Network model?  The dataset is from Dr. Wolberg in Wisconsin from the years 1990-1992 which consists of 699 cancner test specimins.  11 columns include 10 attributes or characteristics of the specimins.  The last column is the class column; benign or malignant.  The data is uploaded and preprocessed for Artificial Neural Network model in Python which is also called Multi-Layer Perceptron Classifier.  
+# Algorithm
+  ANN is a supervised machine learning method that has had a recent reemergence particularly with large, high dimensional datasets. ANN’s name comes from its algorithm that reflects the human brain. The end algorithm is made up of layers of perceptrons with weighted nodes that classify the final result. The model is built first with the input layer which is the original attributes and the outer layer which is the final prediction. In between them are hidden layer(s) whose number is chosen by the researcher. Each hidden layer has a number of nodes, chosen by the researcher, with random weights assigned and connect to the nodes or features to nearby layers.
+After the initial run, the model then corrects itself based on the error of the result. The process is reversed from the output layer back to the hidden layers. Weights are adjusted for all the nodes to minimize the error. This process is known as backpropagation. The process is iterated enough times to get the minimum error of the model. 
+# Results
+  This particular model did not require excessive tuning of the parameters.  The model returned 98% test accuracy.  Furthermore, the confusion matrix is ideal as the two instances that were predicted incorrectly were false positive, predicting malignant when it's actually benign.  There were no false negatives, predicting benign when it's actually malignant.  
